@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '3092092e-dae4-45e3-b83d-9b2090d6a80f'
+  # dockerRegistryServiceConnection: '3092092e-dae4-45e3-b83d-9b2090d6a80f'
   imageRepository: 'debian-ssh'
   containerRegistry: 'sturrentregistry1.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
